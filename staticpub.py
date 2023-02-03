@@ -421,6 +421,8 @@ def create_instance_files(config: ConfigParser) -> None:
             "w", encoding="utf-8"
         ) as cname_fileobj:
             cname_fileobj.write(host)
+        with Path("CNAME").open("w", encoding="utf-8") as cname_fileobj:
+            cname_fileobj.write(host)
         # and a nojekyll to disable Jekyll sites
         # and allow the Webfinger endpoint
         with (instance_files_path / ".nojekyll").open(
