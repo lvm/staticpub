@@ -48,7 +48,7 @@ You can always take a look to the [actual workflow](.github/workflows/staticpub.
 
 Two things to keep in mind: 
 
-1. In `Settings > Pages > Build and deployment`, you'll have to choose `Github Actions`.
+1. In `Settings > Pages > Build and deployment`, you'll have to choose `Deploy from a branch`, select the branch you like (ie: `main`) and the `/docs` directory.
 
 ![](readme_images/gh-actions.png)
 
