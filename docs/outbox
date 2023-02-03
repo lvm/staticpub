@@ -2,6 +2,6 @@
   "@context": "https://www.w3.org/ns/activitystreams",
   "id": "https://staticpub.cyberpunk.net.ar//outbox",
   "type": "OrderedCollection",
-  "totalItems": 2,
+  "totalItems": 3,
   "first": "https://staticpub.cyberpunk.net.ar//toots"
 }

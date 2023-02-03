@@ -4,8 +4,28 @@
   "type": "OrderedCollectionPage",
   "prev": "https://staticpub.cyberpunk.net.ar//toots",
   "partOf": "https://staticpub.cyberpunk.net.ar//toots",
-  "totalItems": 2,
+  "totalItems": 3,
   "orderedItems": [
+    {
+      "id": "https://staticpub.cyberpunk.net.ar//posts/third",
+      "type": "Create",
+      "actor": "https://staticpub.cyberpunk.net.ar//staticpub",
+      "published": "2023-02-02T21:56:00Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "id": "https://staticpub.cyberpunk.net.ar//posts/third",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "sensitive": false,
+        "filename": "third.md",
+        "type": "Note",
+        "published": "2023-02-02T21:56:00Z",
+        "content": "This is my third entry. Hey ho, let's go!"
+      }
+    },
     {
       "id": "https://staticpub.cyberpunk.net.ar//posts/another",
       "type": "Create",
