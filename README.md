@@ -46,9 +46,15 @@ For this to work using Github Actions, you'll need to setup a new workflow that:
 
 You can always take a look to the [actual workflow](.github/workflows/staticpub.yml) to see the real thing.
 
-One thing to keep in mind: In `Settings > Pages > Build and deployment`, you'll have to choose `Github Actions`.
+Two things to keep in mind: 
+
+1. In `Settings > Pages > Build and deployment`, you'll have to choose `Github Actions`.
 
 ![](readme_images/gh-actions.png)
+
+2. In `Settings > Actions > General > Workflow permissions`, you'll need to select `Read and write permissions` to allow pushing to the repo.
+
+![](readme_images/gh-permissions.png)
 
 ### Endpoints
 
