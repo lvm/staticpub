@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    {
+      "filename": {
+        "@id": "http://schema.org/url",
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://staticpub.cyberpunk.net.ar//posts/another",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "sensitive": false,
+  "filename": "another.md",
+  "type": "Note",
+  "published": "2023-02-02T17:51:00Z",
+  "content": "Let's try the GH Action workflow!"
+}

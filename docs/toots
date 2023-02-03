@@ -1,0 +1,50 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://staticpub.cyberpunk.net.ar//toots",
+  "type": "OrderedCollectionPage",
+  "prev": "https://staticpub.cyberpunk.net.ar//toots",
+  "partOf": "https://staticpub.cyberpunk.net.ar//toots",
+  "totalItems": 2,
+  "orderedItems": [
+    {
+      "id": "https://staticpub.cyberpunk.net.ar//posts/another",
+      "type": "Create",
+      "actor": "https://staticpub.cyberpunk.net.ar//staticpub",
+      "published": "2023-02-02T17:51:00Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "id": "https://staticpub.cyberpunk.net.ar//posts/another",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "sensitive": false,
+        "filename": "another.md",
+        "type": "Note",
+        "published": "2023-02-02T17:51:00Z",
+        "content": "Let's try the GH Action workflow!"
+      }
+    },
+    {
+      "id": "https://staticpub.cyberpunk.net.ar//posts/test",
+      "type": "Create",
+      "actor": "https://staticpub.cyberpunk.net.ar//staticpub",
+      "published": "2023-02-02T17:46:00Z",
+      "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+      ],
+      "object": {
+        "id": "https://staticpub.cyberpunk.net.ar//posts/test",
+        "to": [
+          "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "sensitive": false,
+        "filename": "test.md",
+        "type": "Note",
+        "published": "2023-02-02T17:46:00Z",
+        "content": "This is my first entry. Test. Test. 123."
+      }
+    }
+  ]
+}

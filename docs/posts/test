@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    {
+      "filename": {
+        "@id": "http://schema.org/url",
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://staticpub.cyberpunk.net.ar//posts/test",
+  "to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+  ],
+  "sensitive": false,
+  "filename": "test.md",
+  "type": "Note",
+  "published": "2023-02-02T17:46:00Z",
+  "content": "This is my first entry. Test. Test. 123."
+}

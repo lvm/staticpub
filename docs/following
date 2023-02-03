@@ -1,0 +1,7 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "https://staticpub.cyberpunk.net.ar//followers",
+  "type": "OrderedCollection",
+  "totalItems": null,
+  "first": []
+}

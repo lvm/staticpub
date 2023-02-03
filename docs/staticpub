@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ],
+  "id": "https://staticpub.cyberpunk.net.ar//staticpub",
+  "type": "Person",
+  "following": "https://staticpub.cyberpunk.net.ar//following",
+  "followers": "https://staticpub.cyberpunk.net.ar//followers",
+  "inbox": "https://staticpub.cyberpunk.net.ar//inbox",
+  "outbox": "https://staticpub.cyberpunk.net.ar//outbox",
+  "preferredUsername": "staticpub",
+  "name": "StaticPub!",
+  "summary": "This is a StaticPub Instance",
+  "url": "https://staticpub.cyberpunk.net.ar/",
+  "manuallyApprovesFollowers": true,
+  "discoverable": true,
+  "published": "2023-02-09T00:00:00Z",
+  "featured": "https://staticpub.cyberpunk.net.ar//featured",
+  "image": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://staticpub.cyberpunk.net.ar//banner.png"
+  },
+  "icon": {
+    "type": "Image",
+    "mediaType": "image/png",
+    "url": "https://staticpub.cyberpunk.net.ar//icon.png"
+  }
+}

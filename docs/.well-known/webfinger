@@ -1,0 +1,10 @@
+{
+  "subject": "acct:staticpub@staticpub.cyberpunk.net.ar",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://staticpub.cyberpunk.net.ar//staticpub"
+    }
+  ]
+}
