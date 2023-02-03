@@ -71,14 +71,14 @@ Additionally, the [Mastodon blog](https://blog.joinmastodon.org/2018/06/how-to-i
 
 So, basically, what we really need are barely 6 or 7 endpoints:
 
-* `users/{preferredUsername}`
-* `outbox/`
-* `following/`
-* `followers/`
+* `{preferredUsername}`
+* `outbox`
+* `following`
+* `followers`
 * `posts/{noteId}`
 * `.well-known/webfinger`
   * Note that this endpoint requires a query param, but we'll ignore it.
-* And optionally: `featured/`
+* And optionally: `featured`
 
 ### How to format "Entries"
 
